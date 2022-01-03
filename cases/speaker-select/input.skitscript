@@ -1,0 +1,21 @@
+~ Reset ~
+
+> Do not select a character leads to Line.
+> Select Character A leads to Character A.
+> Select Character B leads to Character B.
+
+~ Character A ~
+
+Character A:
+
+Jump to Line.
+
+~ Character B ~
+
+Character B:
+
+~ Line ~
+
+  Now check the result.
+
+Jump to Reset.

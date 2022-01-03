@@ -1,0 +1,19 @@
+Example Character enters Animation.
+
+> Do not exit leads to Report.
+> Use exit animation A leads to Entry Animation A.
+> Use exit animation B leads to Entry Animation B.
+
+~ Entry Animation A ~
+
+Example Character exits Animation A.
+
+Jump to Report.
+
+~ Entry Animation B ~
+
+Example Character exits Animation B.
+
+~ Report ~
+
+  Now check the result.

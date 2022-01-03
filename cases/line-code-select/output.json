@@ -1,0 +1,76 @@
+{
+  "type": "valid",
+  "characters": [],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me a line which is NOT bold"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me a line which is bold"
+              }
+            ],
+            "stateIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": true,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}

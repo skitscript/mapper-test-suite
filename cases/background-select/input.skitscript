@@ -1,0 +1,19 @@
+  Which background should be used?
+
+> Do not use a background leads to End.
+> Use background A leads to Background A.
+> Use background B leads to Background B.
+
+~ Background A ~
+
+Location: Background A.
+
+Jump to End.
+
+~ Background B ~
+
+Location: Background B.
+
+~ End ~
+
+  Now check the result.

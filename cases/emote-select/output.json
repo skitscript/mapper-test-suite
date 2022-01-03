@@ -1,0 +1,141 @@
+{
+  "type": "valid",
+  "characters": [
+    {
+      "normalized": "example-character",
+      "verbatim": "Example Character"
+    }
+  ],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "entering",
+          "emote": "neutral",
+          "animation": "quickly"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Which emote should be used?"
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not use an emote"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use emote A"
+              }
+            ],
+            "stateIndex": 2
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use emote B"
+              }
+            ],
+            "stateIndex": 3
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "exiting",
+          "emote": "neutral",
+          "animation": "quickly"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "exiting",
+          "emote": "emote-a",
+          "animation": "quickly"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "exiting",
+          "emote": "emote-b",
+          "animation": "quickly"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}

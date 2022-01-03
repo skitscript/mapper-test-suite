@@ -1,0 +1,12 @@
+~ Reset ~
+
+> Show me the first option leads to First Option.
+> Show me the second option leads to Second Option.
+
+~ First Option ~
+
+> This is the first option leads to Reset.
+
+~ Second Option ~
+
+> This is the second option leads to Reset.

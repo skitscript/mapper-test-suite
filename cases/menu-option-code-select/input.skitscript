@@ -1,0 +1,12 @@
+~ Reset ~
+
+> Show me an option which is NOT code leads to Normal.
+> Show me an option which is code leads to Code.
+
+~ Normal ~
+
+> Now check the result leads to Reset.
+
+~ Code ~
+
+> `Now check the result` leads to Reset.

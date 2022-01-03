@@ -1,0 +1,16 @@
+~ Reset ~
+
+> Show me a line which is NOT bold leads to Normal.
+> Show me a line which is bold leads to Bold.
+
+~ Normal ~
+
+  Now check the result.
+
+Jump to Reset.
+
+~ Bold ~
+
+  **Now check the result.**
+
+Jump to Reset.

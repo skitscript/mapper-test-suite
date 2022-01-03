@@ -1,0 +1,86 @@
+{
+  "type": "valid",
+  "characters": [],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me an option which is NOT italic"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me an option which is italic"
+              }
+            ],
+            "stateIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Now check the result"
+              }
+            ],
+            "stateIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": true,
+                "code": false,
+                "plainText": "Now check the result"
+              }
+            ],
+            "stateIndex": 0
+          }
+        ]
+      }
+    }
+  ]
+}

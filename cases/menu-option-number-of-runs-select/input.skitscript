@@ -1,0 +1,12 @@
+~ Reset ~
+
+> Show me an option which contains fewer runs leads to Fewer Runs.
+> Show me an option which contains more runs leads to More Runs.
+
+~ Fewer Runs ~
+
+> Now *check* the result. leads to Reset.
+
+~ More Runs ~
+
+> Now *check* the result.**BOLD** leads to Reset.

@@ -1,0 +1,183 @@
+{
+  "type": "valid",
+  "characters": [
+    {
+      "normalized": "example-character",
+      "verbatim": "Example Character"
+    }
+  ],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "entering",
+          "emote": "neutral",
+          "animation": "animation"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not exit"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use exit animation A"
+              }
+            ],
+            "stateIndex": 3
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use exit animation B"
+              }
+            ],
+            "stateIndex": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "present",
+          "emote": "neutral"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 2
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "present",
+          "emote": "neutral"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not exit"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use exit animation A"
+              }
+            ],
+            "stateIndex": 3
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Use exit animation B"
+              }
+            ],
+            "stateIndex": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "exiting",
+          "emote": "neutral",
+          "animation": "animation-a"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "exiting",
+          "emote": "neutral",
+          "animation": "animation-b"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}

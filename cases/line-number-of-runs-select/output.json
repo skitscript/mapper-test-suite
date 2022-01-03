@@ -1,0 +1,106 @@
+{
+  "type": "valid",
+  "characters": [],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me a line which contains fewer runs"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me a line which contains more runs"
+              }
+            ],
+            "stateIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now "
+        },
+        {
+          "bold": false,
+          "italic": true,
+          "code": false,
+          "plainText": "check"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": " the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now "
+        },
+        {
+          "bold": false,
+          "italic": true,
+          "code": false,
+          "plainText": "check"
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": " the result."
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "code": false,
+          "plainText": "BOLD"
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}

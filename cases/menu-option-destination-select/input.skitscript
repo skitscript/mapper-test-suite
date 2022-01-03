@@ -1,0 +1,24 @@
+~ Reset ~
+
+> Show me an option which leads to destination A leads to For Destination A.
+> Show me an option which leads to destination B leads to For Destination B.
+
+~ For Destination A ~
+
+> Select this leads to Destination A.
+
+~ For Destination B ~
+
+> Select this leads to Destination B.
+
+~ Destination A ~
+
+  This is destination A.
+
+Jump to Reset.
+
+~ Destination B ~
+
+  This is destination B.
+
+Jump to Reset.

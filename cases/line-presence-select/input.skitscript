@@ -1,0 +1,14 @@
+~ Reset ~
+
+> Show me both lines leads to Both Lines.
+> Show me only the second line leads to Second Line.
+
+~ Both Lines ~
+
+  This is the first line.
+
+~ Second Line ~
+
+  This is the second line.
+
+Jump to Reset.

@@ -1,0 +1,76 @@
+{
+  "type": "valid",
+  "characters": [],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me the first line"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Show me the second line"
+              }
+            ],
+            "stateIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the first line."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the second line."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}

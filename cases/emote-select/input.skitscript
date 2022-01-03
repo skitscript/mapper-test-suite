@@ -1,0 +1,25 @@
+Example Character enters quickly.
+
+  Which emote should be used?
+
+> Do not use an emote leads to Reset.
+> Use emote A leads to Emote A.
+> Use emote B leads to Emote B.
+
+~ Emote A ~
+
+Example Character is Emote A.
+
+Jump to Reset.
+
+~ Emote B ~
+
+Example Character is Emote B.
+
+~ Reset ~
+
+Example Character exits quickly.
+
+  Now check the result.
+
+Example Character is neutral.

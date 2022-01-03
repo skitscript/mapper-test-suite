@@ -1,0 +1,21 @@
+> Do not enter leads to Report.
+> Use entry animation A leads to Entry Animation A.
+> Use entry animation B leads to Entry Animation B.
+
+~ Entry Animation A ~
+
+Example Character enters Entry Animation A.
+
+Jump to Report.
+
+~ Entry Animation B ~
+
+Example Character enters Entry Animation B.
+
+~ Report ~
+
+  Now check the result.
+
+Example Character exits Animation.
+
+  Resetting...

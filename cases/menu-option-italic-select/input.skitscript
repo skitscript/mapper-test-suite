@@ -1,0 +1,12 @@
+~ Reset ~
+
+> Show me an option which is NOT italic leads to Normal.
+> Show me an option which is italic leads to Italic.
+
+~ Normal ~
+
+> Now check the result leads to Reset.
+
+~ Italic ~
+
+> *Now check the result* leads to Reset.

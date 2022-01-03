@@ -1,0 +1,540 @@
+{
+  "type": "valid",
+  "characters": [],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the first choice which will be forgotten."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 3
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 3
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the first choice which will be remembered."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 4
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 13
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 5
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the second choice which will be forgotten."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 6
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 7
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 8
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 8
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the second choice which will be remembered."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 9
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 11
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 10
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A both times in the remembered choices."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 12
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A, then B, in the remembered choices."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 14
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the second choice which will be forgotten."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 15
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 16
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 17
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 17
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "This is the second choice which will be remembered."
+        }
+      ],
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "A"
+              }
+            ],
+            "stateIndex": 18
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "B"
+              }
+            ],
+            "stateIndex": 20
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected A."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 19
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B, then A, in the remembered choices."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 21
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "You selected B both times in the remembered choices."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    }
+  ]
+}
