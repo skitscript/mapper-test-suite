@@ -1,0 +1,254 @@
+{
+  "type": "valid",
+  "characters": [
+    {
+      "normalized": "character-a",
+      "verbatim": "Character A"
+    },
+    {
+      "normalized": "character-b",
+      "verbatim": "Character B"
+    }
+  ],
+  "states": [
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not select a character"
+              }
+            ],
+            "stateIndex": 1
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character A"
+              }
+            ],
+            "stateIndex": 2
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character B"
+              }
+            ],
+            "stateIndex": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 0
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [
+        "character-a"
+      ],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 3
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [
+        "character-a"
+      ],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not select a character"
+              }
+            ],
+            "stateIndex": 2
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character A"
+              }
+            ],
+            "stateIndex": 2
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character B"
+              }
+            ],
+            "stateIndex": 4
+          }
+        ]
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [
+        "character-b"
+      ],
+      "background": null,
+      "line": [
+        {
+          "bold": false,
+          "italic": false,
+          "code": false,
+          "plainText": "Now check the result."
+        }
+      ],
+      "interaction": {
+        "type": "dismiss",
+        "stateIndex": 5
+      }
+    },
+    {
+      "type": "valid",
+      "characters": [
+        {
+          "type": "notPresent"
+        },
+        {
+          "type": "notPresent"
+        }
+      ],
+      "speakers": [
+        "character-b"
+      ],
+      "background": null,
+      "line": null,
+      "interaction": {
+        "type": "menu",
+        "options": [
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Do not select a character"
+              }
+            ],
+            "stateIndex": 4
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character A"
+              }
+            ],
+            "stateIndex": 2
+          },
+          {
+            "content": [
+              {
+                "bold": false,
+                "italic": false,
+                "code": false,
+                "plainText": "Select Character B"
+              }
+            ],
+            "stateIndex": 4
+          }
+        ]
+      }
+    }
+  ]
+}

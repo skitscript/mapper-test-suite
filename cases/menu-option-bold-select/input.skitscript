@@ -1,0 +1,12 @@
+~ Reset ~
+
+> Show me an option which is NOT bold leads to Normal.
+> Show me an option which is bold leads to Bold.
+
+~ Normal ~
+
+> Now check the result leads to Reset.
+
+~ Bold ~
+
+> **Now check the result** leads to Reset.

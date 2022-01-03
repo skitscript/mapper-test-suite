@@ -1,0 +1,20 @@
+~ Reset ~
+
+> Show me a line which leads to destination A leads to For Destination A.
+> Show me a line which leads to destination B leads to For Destination B.
+
+~ For Destination A ~
+
+  Proceed.
+
+  This is destination A.
+
+Jump to Reset.
+
+~ For Destination B ~
+
+  Proceed.
+
+  This is destination B.
+
+Jump to Reset.

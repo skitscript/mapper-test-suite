@@ -1,0 +1,118 @@
+~ Start ~
+
+Clear Selected A in first forgotten choice.
+Clear Selected A in first remembered choice.
+Clear Selected A in second forgotten choice.
+Clear Selected A in second remembered choice.
+
+  This is the first choice which will be forgotten.
+
+> A leads to Forgotten Choice A A.
+> B leads to Forgotten Choice A B.
+
+~ Forgotten Choice A A ~
+
+Set Selected A in first forgotten choice.
+
+  You selected A.
+
+Jump to Remembered Choice A.
+
+~ Forgotten Choice A B ~
+
+  You selected B.
+
+~ Remembered Choice A ~
+
+  This is the first choice which will be remembered.
+
+> A leads to Remembered Choice A A.
+> B leads to Remembered Choice A B.
+
+~ Remembered Choice A A ~
+
+Set Selected A in first remembered choice.
+
+  You selected A.
+
+Jump to Forgotten Choice B.
+
+~ Remembered Choice A B ~
+
+  You selected B.
+
+~ Forgotten Choice B ~
+
+  This is the second choice which will be forgotten.
+
+> A leads to Forgotten Choice B A.
+> B leads to Forgotten Choice B B.
+
+~ Forgotten Choice B A ~
+
+Set Selected A in second forgotten choice.
+
+  You selected A.
+
+Jump to Remembered Choice B.
+
+~ Forgotten Choice B B ~
+
+  You selected B.
+
+~ Remembered Choice B ~
+
+  This is the second choice which will be remembered.
+
+> A leads to Remembered Choice B A.
+> B leads to Remembered Choice B B.
+
+~ Remembered Choice B A ~
+
+Set Selected A in second remembered choice.
+
+  You selected A.
+
+Jump to Results.
+
+~ Remembered Choice B B ~
+
+  You selected B.
+
+~ Results ~
+
+Jump to False Branch A when Selected A in first forgotten choice.
+
+~ False Branch A ~
+
+Jump to False Branch B when Selected A in second forgotten choice.
+
+~ False Branch B ~
+
+Jump to A A when Selected A in first remembered choice and Selected A in second remembered choice.
+
+Jump to B B when not Selected A in first remembered choice or Selected A in second remembered choice.
+
+Jump to A B when Selected A in first remembered choice.
+
+  You selected B, then A, in the remembered choices.
+
+Jump to Start.
+
+~ A A ~
+
+  You selected A both times in the remembered choices.
+
+Jump to Start.
+
+~ B B ~
+
+  You selected B both times in the remembered choices.
+
+Jump to Start.
+
+~ A B ~
+
+  You selected A, then B, in the remembered choices.
+
+Jump to Start.
