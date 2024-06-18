@@ -1,4 +1,4 @@
-# Skitscript Mapper Test Suite [![Continuous Integration](https://github.com/skitscript/mapper-test-suite/workflows/Continuous%20Integration/badge.svg)](https://github.com/skitscript/mapper-test-suite/actions) [![License](https://img.shields.io/github/license/skitscript/mapper-test-suite.svg)](https://github.com/skitscript/mapper-test-suite/blob/master/license) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+# Skitscript Mapper Test Suite [![License](https://img.shields.io/github/license/skitscript/mapper-test-suite.svg)](https://github.com/skitscript/mapper-test-suite/blob/master/license) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 A test suite for mappers of Skitscript documents.
 
