@@ -42,4 +42,4 @@ This is a JSON representation of the map which is expected to be produced in
 response.
 
 It is similar in structure to
-[ValidMap](https://github.com/skitscript/types-nodejs/blob/master/ValidMap/index.ts).
+[ValidMap](https://github.com/skitscript/mapper-nodejs/blob/master/ValidMap/index.ts).
